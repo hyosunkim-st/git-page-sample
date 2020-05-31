@@ -4,7 +4,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     var header = document.getElementById('header');
-   
+    
     if(document.documentElement.scrollTop > 70) {
         if(!header.classList.contains('navbar-fixed')) {
             header.classList.add('navbar-fixed');
