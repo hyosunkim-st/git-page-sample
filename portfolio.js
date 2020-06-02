@@ -25,7 +25,7 @@ function menuToggle() {
     document.getElementById('menu').classList.toggle('show');
 }
 document.getElementById('toggleBtn').addEventListener('click', menuToggle)
-/* WELCOME aaAREA */
+/* WELCOME aagAREAdd */
 var imageSlideIndex = 1;
 showImageSlides(imageSlideIndex);
 function imageSlideTimer() {
